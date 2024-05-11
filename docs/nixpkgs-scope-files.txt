@@ -1,0 +1,134 @@
+pkgs/applications/audio/mopidy/default.nix:lib.makeScope newScope (self: with self; {
+pkgs/applications/editors/ed/default.nix:lib.makeScope pkgs.newScope (self:
+pkgs/applications/editors/emacs/default.nix:lib.makeScope pkgs.newScope (self:
+pkgs/applications/editors/emacs/make-emacs.nix:, recurseIntoAttrs
+pkgs/applications/editors/neovim/tests/default.nix:  pkgs.recurseIntoAttrs (
+pkgs/applications/editors/vim/plugins/overrides.nix:  nvim-treesitter-parsers = lib.recurseIntoAttrs self.nvim-treesitter.grammarPlugins;
+pkgs/applications/editors/vscode/extensions/default.nix:    lib.mapAttrs (_n: lib.recurseIntoAttrs) {
+pkgs/applications/graphics/gimp/plugins/default.nix:lib.makeScope pkgs.newScope (self:
+pkgs/applications/kde/default.nix:in lib.makeScope libsForQt5.newScope packages
+pkgs/applications/maui/default.nix:in lib.makeScope libsForQt5.newScope packages
+pkgs/applications/networking/browsers/netsurf/default.nix:lib.makeScope pkgs.newScope (self:
+pkgs/applications/networking/cluster/nixops/default.nix:          lib.recurseIntoAttrs
+pkgs/applications/networking/instant-messengers/pidgin/pidgin-plugins/default.nix:lib.makeScope newScope (self:
+pkgs/applications/networking/mullvad/default.nix:lib.makeScope newScope (self: {
+pkgs/applications/plasma-mobile/default.nix:in lib.makeScope libsForQt5.newScope packages
+pkgs/applications/science/misc/openmodelica/default.nix:lib.makeScope newScope (self:
+pkgs/applications/version-management/sourcehut/default.nix:, recurseIntoAttrs
+pkgs/applications/video/mpv/scripts/default.nix:  (makeScope newScope)
+pkgs/applications/window-managers/wayfire/plugins.nix:lib.makeScope pkgs.newScope (self:
+pkgs/build-support/testers/hasPkgConfigModules/tests.nix:lib.recurseIntoAttrs {
+pkgs/build-support/trivial-builders/test/write-text-file.nix:lib.recurseIntoAttrs {
+pkgs/by-name/nv/nvidia-container-toolkit/packages.nix:lib.makeScope newScope (
+pkgs/by-name/pr/pretix/package.nix:    plugins = lib.recurseIntoAttrs
+pkgs/by-name/wi/windowmaker/dockapps/default.nix:lib.makeScope pkgs.newScope (self: {
+pkgs/desktops/budgie/default.nix:lib.makeScope newScope (self: let
+pkgs/desktops/cinnamon/default.nix:lib.makeScope pkgs.newScope (self: with self; {
+pkgs/desktops/deepin/default.nix:lib.makeScope libsForQt5.newScope packages
+pkgs/desktops/enlightenment/default.nix:lib.makeScope pkgs.newScope (self: with self; {
+pkgs/desktops/gnome-2/default.nix:lib.makeScope pkgs.newScope (self: with self; {
+pkgs/desktops/gnome/default.nix:lib.makeScope pkgs.newScope (self: with self; {
+pkgs/desktops/gnome/extensions/default.nix:    lib.recurseIntoAttrs
+pkgs/desktops/lomiri/default.nix:  lib.makeScope libsForQt5.newScope packages
+pkgs/desktops/lumina/default.nix:in pkgs.lib.makeScope libsForQt5.newScope packages
+pkgs/desktops/lxde/default.nix:lib.makeScope pkgs.newScope (self: with self; {
+pkgs/desktops/lxqt/default.nix:{ pkgs, makeScope, kdePackages }:
+pkgs/desktops/mate/default.nix:in lib.makeScope pkgs.newScope packages
+pkgs/desktops/pantheon/default.nix:lib.makeScope pkgs.newScope (self: with self; {
+pkgs/desktops/plasma-5/default.nix:lib.makeScope libsForQt5.newScope packages
+pkgs/desktops/xfce/default.nix:, makeScopeWithSplicing'
+pkgs/development/compilers/chicken/4/default.nix:    chickenEggs = lib.recurseIntoAttrs (callPackage ./eggs.nix { });
+pkgs/development/compilers/chicken/5/default.nix:lib.makeScope newScope (self: {
+pkgs/development/compilers/dotnet/default.nix:{ lib, config, callPackage, recurseIntoAttrs }:
+pkgs/development/compilers/elm/default.nix:lib.makeScope pkgs.newScope
+pkgs/development/compilers/graalvm/community-edition/default.nix:lib.makeScope pkgs.newScope (self:
+pkgs/development/compilers/rust/default.nix:    stable = lib.makeScope newScope (self: let
+pkgs/development/coq-modules/mathcomp-analysis/default.nix:  mkCoqDerivation, recurseIntoAttrs,
+pkgs/development/coq-modules/mathcomp/default.nix:  mkCoqDerivation, recurseIntoAttrs, withDoc ? false, single ? false,
+pkgs/development/coq-modules/metacoq/default.nix:  mkCoqDerivation, recurseIntoAttrs,  single ? false,
+pkgs/development/interpreters/lua-5/default.nix:        ({ lua, overrides, callPackage, makeScopeWithSplicing' }: let
+pkgs/development/interpreters/lua-5/tests/default.nix:  pkgs.recurseIntoAttrs ({
+pkgs/development/interpreters/perl/default.nix:        ({ stdenv, pkgs, perl, callPackage, makeScopeWithSplicing' }: let
+pkgs/development/interpreters/php/generic.nix:                nixos = lib.recurseIntoAttrs nixosTests."php${lib.strings.replaceStrings [ "." ] [ "" ] (lib.versions.majorMinor php.version)}";
+pkgs/development/interpreters/python/default.nix:, makeScopeWithSplicing'
+pkgs/development/interpreters/python/passthrufun.nix:{ lib, stdenv, callPackage, pythonPackagesExtensions, config, makeScopeWithSplicing', ... }:
+pkgs/development/libraries/kde-frameworks/default.nix:in lib.makeScope libsForQt5.newScope packages
+pkgs/development/libraries/qt-5/5.15/default.nix:{ makeScopeWithSplicing', generateSplicesForMkScope
+pkgs/development/libraries/qt-6/default.nix:, makeScopeWithSplicing'
+pkgs/development/lisp-modules/imported.nix:in lib.makeScope pkgs.newScope (self: {
+pkgs/development/lisp-modules/nix-cl.nix:    recurseIntoAttrs
+pkgs/development/ocaml-modules/reason-native/default.nix:  lib.makeScope newScope (self: with self; {
+pkgs/development/rocm-modules/5/default.nix:, recurseIntoAttrs
+pkgs/development/rocm-modules/6/default.nix:, recurseIntoAttrs
+pkgs/development/skaware-packages/default.nix:lib.makeScope pkgs.newScope (self:
+pkgs/development/tools/build-managers/bazel/bazel_5/default.nix:, runCommand, runCommandCC, makeWrapper, recurseIntoAttrs
+pkgs/development/tools/build-managers/bazel/bazel_6/default.nix:, runCommand, runCommandCC, makeWrapper, recurseIntoAttrs
+pkgs/development/tools/build-managers/bazel/bazel_7/tests.nix:, recurseIntoAttrs
+pkgs/development/tools/continuous-integration/buildbot/default.nix:, recurseIntoAttrs
+pkgs/development/tools/gauge/plugins/default.nix:lib.makeScope pkgs.newScope (final: let
+pkgs/development/tools/parsing/tree-sitter/default.nix:      builtGrammars = lib.recurseIntoAttrs builtGrammars;
+pkgs/games/dwarf-fortress/default.nix:{ stdenv, stdenvNoCC, gccStdenv, lib, recurseIntoAttrs, libsForQt5, newScope, perlPackages, jdk8, jre8 }:
+pkgs/games/minecraft-servers/default.nix:lib.recurseIntoAttrs (
+pkgs/games/openra_2019/default.nix:  buildOpenRASet = f: args: pkgs.recurseIntoAttrs (lib.mapAttrs callWithName (f ({
+pkgs/games/papermc/default.nix:lib.recurseIntoAttrs (packages // {
+pkgs/games/steam/default.nix:{ makeScopeWithSplicing', generateSplicesForMkScope
+pkgs/kde/default.nix:  makeScopeWithSplicing',
+pkgs/os-specific/bsd/freebsd/default.nix:  makeScopeWithSplicing',
+pkgs/os-specific/bsd/netbsd/default.nix:  makeScopeWithSplicing',
+pkgs/os-specific/linux/cryptsetup/default.nix:          lib.recurseIntoAttrs (
+pkgs/os-specific/linux/minimal-bootstrap/default.nix:lib.makeScope
+pkgs/os-specific/linux/minimal-bootstrap/stage0-posix/default.nix:lib.makeScope newScope (self: with self; {
+pkgs/os-specific/windows/default.nix:lib.makeScope newScope (self: with self; {
+pkgs/pkgs-lib/tests/default.nix:  inherit (pkgs.lib) mapAttrs mapAttrsToList isDerivation mergeAttrs foldl' attrValues recurseIntoAttrs;
+pkgs/servers/http/nginx/generic.nix:      variants = lib.recurseIntoAttrs nixosTests.nginx-variants;
+pkgs/servers/nextcloud/packages/default.nix:in (lib.makeExtensible (_: (lib.makeScope newScope packages))).extend (selfNC: superNC: {})
+pkgs/servers/web-apps/wordpress/packages/default.nix:in lib.recursiveUpdate ((lib.makeExtensible (_: (lib.makeScope newScope packages))).extend (selfWP: superWP: {})) (callPackage ./thirdparty.nix {})
+pkgs/shells/fish/plugins/default.nix:lib.makeScope newScope (self: with self; {
+pkgs/shells/nushell/plugins/default.nix:lib.makeScope newScope (self: with self; {
+pkgs/test/auto-patchelf-hook/default.nix:lib.recurseIntoAttrs {
+pkgs/test/config.nix:lib.recurseIntoAttrs {
+pkgs/test/coq/default.nix:lib.recurseIntoAttrs {
+pkgs/test/cuda/default.nix:  recurseIntoAttrs,
+pkgs/test/dhall/default.nix:lib.recurseIntoAttrs {
+pkgs/test/haskell/cabalSdist/default.nix:lib.recurseIntoAttrs rec {
+pkgs/test/haskell/default.nix:lib.recurseIntoAttrs {
+pkgs/test/hooks/default.nix:  default-stdenv-hooks = lib.recurseIntoAttrs tests.stdenv.hooks;
+pkgs/test/install-shell-files/default.nix:{ lib, runCommandLocal, recurseIntoAttrs, installShellFiles }:
+pkgs/test/nixos-functions/default.nix:  pkgs.recurseIntoAttrs {
+pkgs/test/stdenv/default.nix:  hooks = lib.recurseIntoAttrs (import ./hooks.nix { stdenv = bootStdenv; pkgs = earlyPkgs; inherit lib; });
+pkgs/test/systemd/default.nix:lib.recurseIntoAttrs {
+pkgs/test/texlive/default.nix:  opentype-fonts = lib.recurseIntoAttrs rec {
+pkgs/test/top-level/default.nix:lib.recurseIntoAttrs {
+pkgs/test/vim/default.nix:  pkgs.recurseIntoAttrs (rec {
+pkgs/tools/games/minecraft/optifine/default.nix:{ recurseIntoAttrs
+pkgs/tools/misc/seaborn-data/default.nix:lib.makeScope newScope (self: {
+pkgs/tools/networking/kea/default.nix:    networking-scripted = lib.recurseIntoAttrs { inherit (nixosTests.networking.scripted) dhcpDefault dhcpSimple dhcpOneIf; };
+pkgs/tools/nix/nixos-install-tools/default.nix:    nixos-tests = lib.recurseIntoAttrs nixosTests.installer;
+pkgs/tools/text/gawk/gawkextlib.nix:{ lib, stdenv, recurseIntoAttrs, fetchgit, pkg-config, autoreconfHook
+pkgs/tools/text/nltk_data/default.nix:lib.makeScope newScope (self: {
+pkgs/tools/typesetting/tex/texlive/default.nix:, recurseIntoAttrs
+pkgs/top-level/ada-packages.nix:, makeScopeWithSplicing'
+pkgs/top-level/agda-packages.nix:  mkAgdaPackages = Agda: lib.makeScope newScope (mkAgdaPackages' Agda);
+pkgs/top-level/aliases.nix:  llvmPackages_git = recurseIntoAttrs (callPackage ../development/compilers/llvm/git {
+pkgs/top-level/all-packages.nix:  inherit (lib) recurseIntoAttrs;
+pkgs/top-level/coq-packages.nix:, callPackage, newScope, recurseIntoAttrs, ocamlPackages_4_05, ocamlPackages_4_09
+pkgs/top-level/cubocore-packages.nix:lib.makeScope newScope packages
+pkgs/top-level/cuda-packages.nix:  cudaPackages = customisation.makeScope newScope (
+pkgs/top-level/darwin-packages.nix:, generateSplicesForMkScope, makeScopeWithSplicing'
+pkgs/top-level/emacs-packages.nix:, makeScope
+pkgs/top-level/gnuradio-packages.nix:lib.makeScope newScope ( self:
+pkgs/top-level/hare-third-party.nix:lib.makeScope newScope (self:
+pkgs/top-level/haskell-packages.nix:    in pkgs.recurseIntoAttrs (pkgs.lib.genAttrs
+pkgs/top-level/java-packages.nix:    temurin-bin = recurseIntoAttrs (callPackage (
+pkgs/top-level/linux-kernels.nix:, recurseIntoAttrs
+pkgs/top-level/ocaml-packages.nix:    (lib.makeScope newScope (self: with self;
+pkgs/top-level/octave-packages.nix:    makeScope
+pkgs/top-level/packages-config.nix:  packageOverrides = super: with super; lib.mapAttrs (_: set: recurseIntoAttrs set) {
+pkgs/top-level/php-packages.nix:lib.makeScope pkgs.newScope (self: let
+pkgs/top-level/pkg-config/test-defaultPkgConfigPackages.nix:  lib.recurseIntoAttrs allTests // { inherit tests-combined; }
+pkgs/top-level/pkg-config/tests.nix:lib.recurseIntoAttrs {
+pkgs/top-level/python-packages.nix:  bootstrap = lib.recurseIntoAttrs {
+pkgs/top-level/qt5-packages.nix:, makeScopeWithSplicing'
+pkgs/top-level/qt6-packages.nix:, makeScopeWithSplicing'
+pkgs/top-level/release-outpaths.nix:  recurseIntoAttrs = attrs: attrs // { recurseForDerivations = true; };
+pkgs/top-level/splice.nix:  makeScopeWithSplicing = lib.makeScopeWithSplicing splicePackages pkgs.newScope;
