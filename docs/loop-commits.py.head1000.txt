@@ -1,0 +1,1000 @@
+nixpkgs last fetch: 2024-05-10T15:42:48.935858+00:00
+nixpkgs age: 67293
+mkay
+re-using worktree path PosixPath('/run/user/1000/nixpkgs-old-package-versions/nixpkgs-unstable')
+rev: ac34158a823c7596e0106c806d0b7df47885fa73
+  date: 2024-05-09T02:03:45+00:00
+  subject: Merge pull request #310232 from r-ryantm/auto-update/pyprland
+  parents: ['d5c611fcf504321442bd91b19b3dea7e20f468e7', 'e6905b108aa5f6bf2aa72ef6f7e82ea0a12fc065']
+  rev: e6905b108aa5f6bf2aa72ef6f7e82ea0a12fc065
+    date: 2024-05-08T23:44:15+00:00
+    subject: pyprland: 2.2.16 -> 2.2.17
+    parents: ['4f554f0ff09c4cd34ca201c759c29008d1010eac']
+    path: pkgs/by-name/py/pyprland/package.nix
+      pname: pyprland
+      version: 2.2.16 -> 2.2.17
+rev: 4f554f0ff09c4cd34ca201c759c29008d1010eac
+  date: 2024-05-08T16:07:16+00:00
+  subject: Merge pull request #310142 from k0ral/master
+  parents: ['731666d8d7b536cb09deec240dfba3fa1c058ca2', '56391351b414c73cde0db5642524ec3fa6023fca']
+  rev: 56391351b414c73cde0db5642524ec3fa6023fca
+    date: 2024-05-08T17:51:58+02:00
+    subject: home-assistant-custom-component.ntfy: fix typo
+    parents: ['2144e15546076c6890ca6f389e5b34cbc190d119']
+    path: pkgs/servers/home-assistant/custom-components/default.nix
+      no pname, no version
+rev: 2144e15546076c6890ca6f389e5b34cbc190d119
+  date: 2024-05-08T16:55:33+02:00
+  subject: home-assistant-custom-component.ntfy: init at 1.0.2
+  parents: ['f8962cc24499dddf68364de62380e0b72f753c39']
+  path: pkgs/servers/home-assistant/custom-components/default.nix
+    no pname, no version
+  path: pkgs/servers/home-assistant/custom-components/ntfy/default.nix
+    TODO only version was found
+rev: f8962cc24499dddf68364de62380e0b72f753c39
+  date: 2024-05-08T10:42:49-04:00
+  subject: Merge pull request #310020 from r-ryantm/auto-update/oxker
+  parents: ['20a4646c5000be12cbbc5fecb3ecd9bb438f7dbf', 'cbadd83a0efaf8ac0f8069272dd78a1527e8c270']
+  rev: cbadd83a0efaf8ac0f8069272dd78a1527e8c270
+    date: 2024-05-08T04:56:20+00:00
+    subject: oxker: 0.6.2 -> 0.6.3
+    parents: ['57443256a0191e0d9f5f6cd130e930096581be48']
+    path: pkgs/applications/misc/oxker/default.nix
+      pname: oxker
+      version: 0.6.2 -> 0.6.3
+rev: 57443256a0191e0d9f5f6cd130e930096581be48
+  date: 2024-05-08T01:57:10+02:00
+  subject: Merge pull request #309325 from pyrox0/werkzeug-2.3.8-patch
+  parents: ['7d9adbac815f10ec53836c22606bd921a4982756', '563a41d61621c05c9d646f91e564c49bbc3225fc']
+  rev: 563a41d61621c05c9d646f91e564c49bbc3225fc
+    date: 2024-05-05T13:24:10-04:00
+    subject: sourcehut: Fix werkzueg dependency build
+    parents: ['c5a8fd5df4df5d7ba946b68220dc564140b3ce0d']
+    path: pkgs/applications/version-management/sourcehut/default.nix
+      pname: factory_boy
+      TODO unexpected version matches in pkgs/applications/version-management/sourcehut/default.nix
+                 version = "2.5.1";
+               version = "2.3.3";
+               version = "2.3.8";
+               version = "2.12.0";
+rev: c5a8fd5df4df5d7ba946b68220dc564140b3ce0d
+  date: 2024-05-05T19:06:37+02:00
+  subject: Merge pull request #309314 from drupol/php/build-support/minor-changes
+  parents: ['6e3c9cc7c39e9cf7843e35c66326387334f17594', '31bdcac6a000b97719aa3de19ae554ba31655ea6']
+  rev: 31bdcac6a000b97719aa3de19ae554ba31655ea6
+    date: 2024-05-05T18:49:09+02:00
+    subject: build-support/php: add missing binding
+    parents: ['d8f509a4706287a973cd37398ea683076b241650']
+    path: pkgs/build-support/php/build-composer-project.nix
+      no pname, no version
+  rev: d8f509a4706287a973cd37398ea683076b241650
+    date: 2024-05-05T18:46:46+02:00
+    subject: build-support/php: composer, add `meta.mainProgram`
+    parents: ['409e640ceff14b130bc65faa1065a008249432fe']
+    path: pkgs/build-support/php/pkgs/composer-phar.nix
+      pname: composer-phar
+      TODO only pname was found
+  rev: 409e640ceff14b130bc65faa1065a008249432fe
+    date: 2024-05-05T18:46:33+02:00
+    subject: build-support/php: use `lib.getExe`
+    parents: ['b5855e4e666231507bdde8982190d5e0486f4c47']
+    path: pkgs/build-support/php/pkgs/composer-phar.nix
+      pname: composer-phar
+      TODO only pname was found
+  rev: b5855e4e666231507bdde8982190d5e0486f4c47
+    date: 2024-05-05T18:45:52+02:00
+    subject: build-support/php: move environment variables under `env` attribute
+    parents: ['6ca2dfeaec7e8ccb6bb6261a49aa35cd3b09f378']
+    path: pkgs/build-support/php/build-composer-project.nix
+      no pname, no version
+    path: pkgs/build-support/php/build-composer-repository.nix
+      no pname, no version
+    path: pkgs/build-support/php/pkgs/composer-local-repo-plugin.nix
+      TODO unexpected pname matches in pkgs/build-support/php/pkgs/composer-local-repo-plugin.nix
+             pname = "composer-keys";
+         pname = "composer-local-repo-plugin";
+  rev: 6ca2dfeaec7e8ccb6bb6261a49aa35cd3b09f378
+    date: 2024-05-05T18:45:27+02:00
+    subject: build-support/php: remove obsolete parameters
+    parents: ['6c2d986176e8f6545263fa1467012ebf51880c0f']
+    path: pkgs/build-support/php/build-composer-project.nix
+      no pname, no version
+    path: pkgs/build-support/php/build-composer-repository.nix
+      no pname, no version
+rev: 6c2d986176e8f6545263fa1467012ebf51880c0f
+  date: 2024-05-05T19:40:27+03:00
+  subject: Merge pull request #308874 from Artturin/qtquick
+  parents: ['093724dbda069a319b7703c720ec77a1808825c9', 'b5f0de80ae945eb57d10be1cfdd16b8f4240b3b9']
+  rev: b5f0de80ae945eb57d10be1cfdd16b8f4240b3b9
+    date: 2024-05-03T22:43:57+03:00
+    subject: libsForQt5.qtpurchasing: init
+    parents: ['f96df5a20d84af47420c7a8a14c745e7c5d25660']
+    path: pkgs/development/libraries/qt-5/5.15/default.nix
+      no pname, no version
+    path: pkgs/development/libraries/qt-5/modules/qtpurchasing.nix
+      TODO only pname was found
+  rev: f96df5a20d84af47420c7a8a14c745e7c5d25660
+    date: 2024-05-03T22:33:20+03:00
+    subject: libsForQt5.qtquick3d: init
+    parents: ['d88e2d581fee6aa0daaea9551628684c5d5eb3cd']
+    path: pkgs/development/libraries/qt-5/5.15/default.nix
+      no pname, no version
+    path: pkgs/development/libraries/qt-5/modules/qtquick3d.nix
+      no pname, no version
+rev: d88e2d581fee6aa0daaea9551628684c5d5eb3cd
+  date: 2024-05-03T18:26:41+02:00
+  subject: Merge pull request #308772 from r-ryantm/auto-update/python311Packages.oracledb
+  parents: ['662ae2a0cf412fec9f7ffefa16dc4cb70343814b', 'a5dc01f1dd8f63760245a9245574862499f97f37']
+  rev: a5dc01f1dd8f63760245a9245574862499f97f37
+    date: 2024-05-03T15:23:35+02:00
+    subject: python311Packages.oracledb: format with nixfmt
+    parents: ['3251e2767863f58d2c6b5c2033c6e25fe449c7de']
+    path: pkgs/development/python-modules/oracledb/default.nix
+      pname: oracledb
+      version: 2.2.0
+  rev: 3251e2767863f58d2c6b5c2033c6e25fe449c7de
+    date: 2024-05-03T10:41:15+00:00
+    subject: python311Packages.oracledb: 2.1.2 -> 2.2.0
+    parents: ['79691a0162e1bb3520f78a07e2845929a6cbc0d2']
+    path: pkgs/development/python-modules/oracledb/default.nix
+      pname: oracledb
+      version: 2.1.2 -> 2.2.0
+rev: 79691a0162e1bb3520f78a07e2845929a6cbc0d2
+  date: 2024-05-03T08:58:26+03:00
+  subject: Merge pull request #308683 from r-ryantm/auto-update/mympd
+  parents: ['11335dd4929c848b5e20e9f3cab66df44384ce0e', '834870ef6abc33f679729f996a9d7444638d7a37']
+  rev: 834870ef6abc33f679729f996a9d7444638d7a37
+    date: 2024-05-03T02:18:17+00:00
+    subject: mympd: 14.1.2 -> 15.0.1
+    parents: ['d32ecd778d250e9800507e4ab8617eb0d3d9cae2']
+    path: pkgs/applications/audio/mympd/default.nix
+      pname: mympd
+      version: 14.1.2 -> 15.0.1
+rev: d32ecd778d250e9800507e4ab8617eb0d3d9cae2
+  date: 2024-05-03T01:49:32+02:00
+  subject: Merge pull request #308381 from pbsds/fix-pygame-gui-1714506295
+  parents: ['3407bfdb549388319a5cd2070b8d546b762b122c', '6bbf0a7e1f48c483d4ffbaaf72ce94765281e5e7']
+  rev: 6bbf0a7e1f48c483d4ffbaaf72ce94765281e5e7
+    date: 2024-05-02T00:02:38+02:00
+    subject: python311Packages.pygame-gui: harden, migrate to pyproject=true
+    parents: ['16211e812efb922e8c80ece46c4c5e0a8bcd5db2']
+    path: pkgs/development/python-modules/pygame-gui/default.nix
+      pname: pygame-gui
+      version: 0610
+  rev: 16211e812efb922e8c80ece46c4c5e0a8bcd5db2
+    date: 2024-05-01T23:54:48+02:00
+    subject: python311Packages.pygame-gui: 069 -> 0610
+    parents: ['1eeb94a4e3f75b4760d540d7e2ef3fcfe24feb93']
+    path: pkgs/development/python-modules/pygame-gui/default.nix
+      pname: pygame-gui
+      version: 069 -> 0610
+  rev: 1eeb94a4e3f75b4760d540d7e2ef3fcfe24feb93
+    date: 2024-05-01T00:35:22+02:00
+    subject: python311Packages.pygame-gui: switch to pygame-ce
+    parents: ['0224fcf295cd3803e1ee1f66e27c6e94cd9eb703']
+    path: pkgs/development/python-modules/pygame-gui/default.nix
+      pname: pygame-gui
+      version: 069
+rev: 0224fcf295cd3803e1ee1f66e27c6e94cd9eb703
+  date: 2024-05-01T23:52:46+02:00
+  subject: Merge pull request #304472 from pbsds/pygame-ce-init
+  parents: ['437e8e2f65f0b2093017df9402c31a9d25028f59', '5bcc970cf96d85ec8c3c7d2eabd32cce9f3ef604']
+  rev: 5bcc970cf96d85ec8c3c7d2eabd32cce9f3ef604
+    date: 2024-04-16T09:02:08+02:00
+    subject: python311Packages.pygame-ce: init at 2.4.1
+    parents: ['0e273473c249f48dfadbf1318056d57f26aa5bf3']
+    path: pkgs/development/python-modules/pygame-ce/default.nix
+    path: pkgs/development/python-modules/pygame-ce/fix-dependency-finding.patch
+      no pname, no version
+    path: pkgs/development/python-modules/pygame-ce/skip-surface-tests.patch
+      no pname, no version
+    path: pkgs/top-level/python-packages.nix
+      TODO implement diff pkgs/top-level/python-packages.nix
+rev: 0e273473c249f48dfadbf1318056d57f26aa5bf3
+  date: 2024-04-30T23:36:59+02:00
+  subject: firmware-updater: unstable-2023-09-17 -> unstable-2024-18-04 (#308100)
+  parents: ['29535b5bc9ed68360076bbf924112ebc87ccb882']
+  path: pkgs/os-specific/linux/firmware/firmware-updater/default.nix
+    pname: firmware-updater
+    version: unstable-2023-09-17 -> unstable-2024-18-04
+  path: pkgs/os-specific/linux/firmware/firmware-updater/pubspec.lock.json
+    no pname, no version
+  path: pkgs/os-specific/linux/firmware/firmware-updater/upgrade-file.patch
+    no pname, no version
+rev: 29535b5bc9ed68360076bbf924112ebc87ccb882
+  date: 2024-04-30T23:26:16+02:00
+  subject: vimPlugins.cmp-git: add plenary dependency
+  parents: ['48dbfbc9c841ddab2337474872699929b90ccc74']
+  path: pkgs/applications/editors/vim/plugins/overrides.nix
+    TODO unexpected pname matches in pkgs/applications/editors/vim/plugins/overrides.nix
+           pname = "vim-pony";
+           pname = "coc-nginx";
+           pname = "fzf";
+           pname = "hurl";
+           pname = "magma-nvim-goose";
+               pname = "spectre_oxi";
+               pname = "sg-nvim-rust";
+           pname = "skim";
+               pname = "sniprun-bin";
+             pname = "sniprun";
+               pname = "vim-markdown-composer-bin";
+rev: 48dbfbc9c841ddab2337474872699929b90ccc74
+  date: 2024-05-01T07:34:47+10:00
+  subject: python311Packages.rapidgzip: 0.13.2 -> 0.13.3 (#308099)
+  parents: ['84956c5a00d1d139eb890d436ac69cc06089cb28']
+  path: pkgs/development/python-modules/rapidgzip/default.nix
+    pname: rapidgzip
+    version: 0.13.2 -> 0.13.3
+rev: 84956c5a00d1d139eb890d436ac69cc06089cb28
+  date: 2024-04-30T21:27:55+00:00
+  subject: Merge pull request #308044 from r-ryantm/auto-update/python311Packages.litellm
+  parents: ['9027d4164feadd81e550ea802526afc7e46fbcfb', '86d2bf5e93853776f1b1d706a70db49f0b2da44b']
+  rev: 86d2bf5e93853776f1b1d706a70db49f0b2da44b
+    date: 2024-04-30T16:37:07+00:00
+    subject: python311Packages.litellm: 1.35.26 -> 1.35.32
+    parents: ['705bad7ed6014a9957cb43e426e310f581ca1100']
+    path: pkgs/development/python-modules/litellm/default.nix
+      pname: litellm
+      version: 1.35.26 -> 1.35.32
+rev: 705bad7ed6014a9957cb43e426e310f581ca1100
+  date: 2024-04-30T19:53:41+08:00
+  subject: Merge pull request #307483 from r-ryantm/auto-update/libgedit-gtksourceview
+  parents: ['2b05adee2cb17c08faa9b99c582f5b7f34f5352e', 'd062f067d87f975951252a04c88da1126e9d2a3d']
+  rev: d062f067d87f975951252a04c88da1126e9d2a3d
+    date: 2024-04-29T21:53:13+08:00
+    subject: gnome-latex: adapt for libgedit-tepl rename
+    parents: ['094802616669a2d50c612ccc8d185cb7c625bbd0']
+    path: pkgs/applications/editors/gnome-latex/default.nix
+      pname: gnome-latex
+      version: 3.46.0
+  rev: 094802616669a2d50c612ccc8d185cb7c625bbd0
+    date: 2024-04-29T13:45:42+00:00
+    subject: gedit: 46.2 → 47.0
+    parents: ['80ead1c51d07be9b9363d4f3094dec4d5823ed39']
+    path: pkgs/applications/editors/gedit/default.nix
+      pname: gedit
+      version: 46.2 -> 47.0
+  rev: 80ead1c51d07be9b9363d4f3094dec4d5823ed39
+    date: 2024-04-29T21:39:00+08:00
+    subject: libgedit-tepl: 6.8.0 → 6.10.0, renamed from tepl
+    parents: ['2f44e97baf4ef55a606cbf993690835dd57d655e']
+    path: pkgs/applications/editors/gedit/default.nix
+      pname: gedit
+      version: 46.2
+    path: pkgs/applications/editors/gnome-latex/default.nix
+      pname: gnome-latex
+      version: 3.46.0
+    path: pkgs/development/libraries/tepl/default.nix	pkgs/by-name/li/libgedit-tepl/package.nix
+      TODO implement status R051 of path pkgs/development/libraries/tepl/default.nix	pkgs/by-name/li/libgedit-tepl/package.nix
+    path: pkgs/top-level/aliases.nix
+      TODO implement diff pkgs/top-level/aliases.nix
+    path: pkgs/top-level/all-packages.nix
+      TODO implement diff pkgs/top-level/all-packages.nix
+  rev: 2f44e97baf4ef55a606cbf993690835dd57d655e
+    date: 2024-04-29T21:29:38+08:00
+    subject: libgedit-gfls: init at 0.1.0
+    parents: ['b04d309442e4092f9824f335e0afb6b758a71a02']
+    path: pkgs/by-name/li/libgedit-gfls/package.nix
+  rev: b04d309442e4092f9824f335e0afb6b758a71a02
+    date: 2024-04-28T14:43:23+00:00
+    subject: libgedit-gtksourceview: 299.0.5 → 299.2.1
+    parents: ['9516f3c963708933abe984df94a925af38916237']
+    path: pkgs/by-name/li/libgedit-gtksourceview/package.nix
+      pname: libgedit-gtksourceview
+      version: 299.0.5 -> 299.2.1
+rev: 9516f3c963708933abe984df94a925af38916237
+  date: 2024-04-28T07:04:40+02:00
+  subject: Merge pull request #307335 from r-ryantm/auto-update/lmstudio
+  parents: ['02d9f2551ec0f42b28238c6c0ae81700f9e4a3d7', 'f8d93302775a80d6286837f56625d8ff26724b9c']
+  rev: f8d93302775a80d6286837f56625d8ff26724b9c
+    date: 2024-04-27T23:27:09+00:00
+    subject: lmstudio: 0.2.18 -> 0.2.20
+    parents: ['60cb88cc491e819c16fc579fd697d33defd2a8e3']
+    path: pkgs/by-name/lm/lmstudio/package.nix
+      pname: lmstudio
+      version: 0.2.18 -> 0.2.20
+rev: 60cb88cc491e819c16fc579fd697d33defd2a8e3
+  date: 2024-04-27T16:21:10+08:00
+  subject: Merge pull request #306864 from r-ryantm/auto-update/python311Packages.jplephem
+  parents: ['8c217e63e70ee83885e695dab0fccb2a02219842', '5ae52c4cf5d124b62a7369b90bd957834908f1fa']
+  rev: 5ae52c4cf5d124b62a7369b90bd957834908f1fa
+    date: 2024-04-25T21:39:37+00:00
+    subject: python311Packages.jplephem: 2.21 -> 2.22
+    parents: ['5dd187f3b7967b6942273fd25d8bc261de5129ff']
+    path: pkgs/development/python-modules/jplephem/default.nix
+      pname: jplephem
+      version: 2.21 -> 2.22
+rev: 5dd187f3b7967b6942273fd25d8bc261de5129ff
+  date: 2024-04-22T01:14:46+00:00
+  subject: mediamtx: 1.7.0 -> 1.8.0
+  parents: ['78b67db73c5bb221880a9de31a5f2fe7895ad675']
+  path: pkgs/servers/mediamtx/default.nix
+    pname: mediamtx
+    version: 1.7.0 -> 1.8.0
+rev: 78b67db73c5bb221880a9de31a5f2fe7895ad675
+  date: 2024-04-24T21:31:37+02:00
+  subject: gitlab-container-registry: 3.92.0 -> 3.93.0
+  parents: ['3aa3e255bc1923412b2a9f29285ee37dfc8fd656']
+  path: pkgs/applications/version-management/gitlab/gitlab-container-registry/default.nix
+    pname: gitlab-container-registry
+    version: 3.92.0 -> 3.93.0
+rev: 3aa3e255bc1923412b2a9f29285ee37dfc8fd656
+  date: 2024-04-24T21:31:06+02:00
+  subject: gitlab: 16.10.3 -> 16.10.4
+  parents: ['0c6156d6c3e052bd37dfeb8803ea699c298d0745']
+  path: pkgs/applications/version-management/gitlab/data.json
+    no pname, no version
+  path: pkgs/applications/version-management/gitlab/gitaly/default.nix
+    TODO unexpected pname matches in pkgs/applications/version-management/gitlab/gitaly/default.nix
+           pname = "gitaly-aux";
+         pname = "gitaly";
+  path: pkgs/applications/version-management/gitlab/gitlab-pages/default.nix
+    pname: gitlab-pages
+    version: 16.10.3 -> 16.10.4
+  path: pkgs/applications/version-management/gitlab/gitlab-workhorse/default.nix
+    pname: gitlab-workhorse
+    version: 16.10.3 -> 16.10.4
+rev: 0c6156d6c3e052bd37dfeb8803ea699c298d0745
+  date: 2024-04-25T15:39:49+10:00
+  subject: Merge pull request #306604 from D3vil0p3r/patch-3
+  parents: ['5e950c58ad15eeddd867ac344e55b521890c5b4f', 'e86a3e7d2c0e5efaf1a037fc1bfc36b26bf796a6']
+  rev: e86a3e7d2c0e5efaf1a037fc1bfc36b26bf796a6
+    date: 2024-04-24T20:16:13+02:00
+    subject: powersploit: change target directory
+    parents: ['75211009486022bd206703d487aa25eea8168266']
+    path: pkgs/by-name/po/powersploit/package.nix
+      pname: powersploit
+      version: 3.0.0-unstable-2020-08-22
+rev: 75211009486022bd206703d487aa25eea8168266
+  date: 2024-04-24T20:04:32+02:00
+  subject: Merge pull request #306249 from mkg20001/cert-viewer-man
+  parents: ['657e5c43be7db70c3fe64442f20934b5e82dacbb', '97faa99d9df74709182f35bb4c86c5ad21eb23c6']
+  rev: 97faa99d9df74709182f35bb4c86c5ad21eb23c6
+    date: 2024-04-23T12:26:06+02:00
+    subject: cert-viewer: install manual page
+    parents: ['62731445bddc226d2b09c1e2b714cf2dc0c18b67']
+    path: pkgs/by-name/ce/cert-viewer/package.nix
+      pname: cert-viewer
+      version: 0.9.1
+rev: 62731445bddc226d2b09c1e2b714cf2dc0c18b67
+  date: 2024-04-23T12:17:19+02:00
+  subject: Merge pull request #306230 from r-ryantm/auto-update/hugo
+  parents: ['0b4cb020ffa822f85a965c64f967a1fdab3ffa3f', '1cd36a7b6cdaf56e62c747e505986787f44ef24e']
+  rev: 1cd36a7b6cdaf56e62c747e505986787f44ef24e
+    date: 2024-04-23T09:20:17+00:00
+    subject: hugo: 0.125.0 -> 0.125.3
+    parents: ['72bc2ea5d1a591c44c4b63f7f96f282508f7eb8f']
+    path: pkgs/by-name/hu/hugo/package.nix
+      pname: hugo
+      version: 0.125.0 -> 0.125.3
+rev: 72bc2ea5d1a591c44c4b63f7f96f282508f7eb8f
+  date: 2024-04-23T00:14:20-05:00
+  subject: Merge pull request #305285 from marsam/update-nixd
+  parents: ['6a456955a262b419a35590c3e56a183f57e65949', '2eee5fcc2a5f87bd7a75bdac7f4b436613c67bc4']
+  rev: 2eee5fcc2a5f87bd7a75bdac7f4b436613c67bc4
+    date: 2024-04-22T04:20:00+00:00
+    subject: nixd: add version and pkg-config testers
+    parents: ['c1f5835e6ba8b2df709d51fa0e81b1f51fd7105c']
+    path: pkgs/development/tools/language-servers/nixd/default.nix
+      pname: nixd
+      version: 2.0.2
+  rev: c1f5835e6ba8b2df709d51fa0e81b1f51fd7105c
+    date: 2024-04-22T04:20:00+00:00
+    subject: nixd: use finalAttrs pattern
+    parents: ['d69a2737c485234f8f8cba94577fe43239fa533f']
+    path: pkgs/development/tools/language-servers/nixd/default.nix
+      pname: nixd
+      version: 2.0.2
+  rev: d69a2737c485234f8f8cba94577fe43239fa533f
+    date: 2024-04-22T04:20:00+00:00
+    subject: nixd: 1.2.3 -> 2.0.2
+    parents: ['baab40619ea40e2be444aa260ad0ade6c2156fc1']
+    path: pkgs/development/tools/language-servers/nixd/default.nix
+      pname: nixd
+      version: 1.2.3 -> 2.0.2
+    path: pkgs/top-level/all-packages.nix
+      TODO implement diff pkgs/top-level/all-packages.nix
+rev: baab40619ea40e2be444aa260ad0ade6c2156fc1
+  date: 2024-04-22T12:09:13+08:00
+  subject: Merge pull request #305531 from r-ryantm/auto-update/miriway
+  parents: ['b89ef957857031f24d5c4dbdb05a2182d4588957', '70364d30df28f57fffc5d9f71b608e0f408b9f37']
+  rev: 70364d30df28f57fffc5d9f71b608e0f408b9f37
+    date: 2024-04-20T11:38:25+00:00
+    subject: miriway: unstable-2024-04-04 -> unstable-2024-04-16
+    parents: ['63ac7bec8dfd0eaba2e8b33a526a7f64500205c3']
+    path: pkgs/applications/window-managers/miriway/default.nix
+      pname: miriway
+      version: unstable-2024-04-04 -> unstable-2024-04-16
+rev: 63ac7bec8dfd0eaba2e8b33a526a7f64500205c3
+  date: 2024-04-20T05:43:46+00:00
+  subject: Merge pull request #305314 from r-ryantm/auto-update/eza
+  parents: ['5302e89614f7fa834f290aa4d82a94b6b1b70c56', 'fad5531d02141c33462d57fd4b7a789934721cd3']
+  rev: fad5531d02141c33462d57fd4b7a789934721cd3
+    date: 2024-04-19T13:55:44+00:00
+    subject: eza: 0.18.10 -> 0.18.11
+    parents: ['193037db72bfe3ce4a24a9d7fe99a2c4160f40be']
+    path: pkgs/by-name/ez/eza/package.nix
+      pname: eza
+      version: 0.18.10 -> 0.18.11
+rev: 193037db72bfe3ce4a24a9d7fe99a2c4160f40be
+  date: 2024-04-19T07:00:35-05:00
+  subject: Merge pull request #305263 from r-ryantm/auto-update/typos
+  parents: ['f1e8e4837d258a15a5564fdaadc436bee2c38f87', '7e8628d67df46d9ec7a7db805d889d309a6c4e1a']
+  rev: 7e8628d67df46d9ec7a7db805d889d309a6c4e1a
+    date: 2024-04-19T08:25:08+00:00
+    subject: typos: 1.20.8 -> 1.20.9
+    parents: ['1f3ac32a1e19bae2d99aa382504501a8adb94266']
+    path: pkgs/development/tools/typos/default.nix
+      pname: typos
+      version: 1.20.8 -> 1.20.9
+rev: 1f3ac32a1e19bae2d99aa382504501a8adb94266
+  date: 2024-04-18T14:54:52-03:00
+  subject: Merge pull request #304976 from r-ryantm/auto-update/pixelorama
+  parents: ['06dfdd24ea25fbe448f423a269358ba869e8b3af', '4c19d6042d71cef3a2334a1c32bc6bf8b391cd27']
+  rev: 4c19d6042d71cef3a2334a1c32bc6bf8b391cd27
+    date: 2024-04-18T04:21:43+00:00
+    subject: pixelorama: 0.11.3 -> 0.11.4
+    parents: ['3f1bb546b5eb45359d708aa93df420be25b6a28b']
+    path: pkgs/applications/editors/pixelorama/default.nix
+      pname: pixelorama
+      version: 0.11.3 -> 0.11.4
+rev: 3f1bb546b5eb45359d708aa93df420be25b6a28b
+  date: 2024-04-18T02:01:35+02:00
+  subject: Merge pull request #299762 from autrimpo/gonic-0.16.3
+  parents: ['b34f37719e945c41c84da75873799da29e0c9a36', 'ef95bc2eaf38e020efb8961ef60a95be2469cc35']
+  rev: ef95bc2eaf38e020efb8961ef60a95be2469cc35
+    date: 2024-03-28T14:54:25+01:00
+    subject: gonic: add release note warning about playlists-path
+    parents: ['f7c740853dccdc0ab120182503c8d2710a658f8a']
+    path: nixos/doc/manual/release-notes/rl-2405.section.md
+      ignoring
+  rev: f7c740853dccdc0ab120182503c8d2710a658f8a
+    date: 2024-03-28T14:45:02+01:00
+    subject: nixosTests.gonic: set up all necessary paths using tmpfiles
+    parents: ['759812cc34ee9cf74757b23c5c8d3648d38cbf32']
+    path: nixos/tests/gonic.nix
+      ignoring
+  rev: 759812cc34ee9cf74757b23c5c8d3648d38cbf32
+    date: 2024-03-28T14:44:34+01:00
+    subject: nixos/gonic: allow access to playlists
+    parents: ['0e78517af1ba8b45575725515127c94d257f81fa']
+    path: nixos/modules/services/audio/gonic.nix
+      ignoring
+  rev: 0e78517af1ba8b45575725515127c94d257f81fa
+    date: 2024-03-28T14:27:51+01:00
+    subject: gonic: add myself as maintainer
+    parents: ['02d0eb6a45bd28b07377ff25eb6131a5ebcd724f']
+    path: pkgs/servers/gonic/default.nix
+      pname: gonic
+      version: 0.16.4
+  rev: 02d0eb6a45bd28b07377ff25eb6131a5ebcd724f
+    date: 2024-03-19T22:09:45+01:00
+    subject: gonic: 0.15.2 -> 0.16.4
+    parents: ['c3e603e788171c64c4f1a0a7901c860fbcd13f0c']
+    path: pkgs/servers/gonic/default.nix
+      pname: gonic
+      version: 0.15.2 -> 0.16.4
+rev: c3e603e788171c64c4f1a0a7901c860fbcd13f0c
+  date: 2024-03-28T13:46:30+01:00
+  subject: Merge pull request #298972 from LamprosPitsillos/init-tinymist-unstable
+  parents: ['c7de2a3badb945d7d1a7dc7d09e84b3b64a5e91b', '6200b145063f9740fd6c965f14ea75d10085226f']
+  rev: 6200b145063f9740fd6c965f14ea75d10085226f
+    date: 2024-03-25T19:34:07+02:00
+    subject: tinymist: init at 0.11.1
+    parents: ['1d4a442eb919d0bc56d8e2f8587833f2b24fc790']
+    path: pkgs/by-name/ti/tinymist/Cargo.lock
+      no pname, no version
+    path: pkgs/by-name/ti/tinymist/package.nix
+  rev: 1d4a442eb919d0bc56d8e2f8587833f2b24fc790
+    date: 2024-03-27T10:31:43+02:00
+    subject: maintainers: add lampros
+    parents: ['a01132bc4648327e179607b0f783d3f9bf4bc9aa']
+    path: maintainers/maintainer-list.nix
+      ignoring
+rev: a01132bc4648327e179607b0f783d3f9bf4bc9aa
+  date: 2024-03-25T11:45:19-04:00
+  subject: Merge pull request #298946 from r-ryantm/auto-update/shopware-cli
+  parents: ['b8f9533f37ae8be29c66048d88dcb3715e9ae4b3', '9525c80b181f94242f032531e0e4f5fd34385e99']
+  rev: 9525c80b181f94242f032531e0e4f5fd34385e99
+    date: 2024-03-25T14:57:58+00:00
+    subject: shopware-cli: 0.4.29 -> 0.4.30
+    parents: ['b1b78f4369f2c029d1d6455eaedb782be44d7921']
+    path: pkgs/by-name/sh/shopware-cli/package.nix
+      pname: shopware-cli
+      version: 0.4.29 -> 0.4.30
+rev: b1b78f4369f2c029d1d6455eaedb782be44d7921
+  date: 2024-03-25T11:59:19+00:00
+  subject: doc/build-helpers: add missing semicolons (#298632)
+  parents: ['2724e182286d25d69c7709c2c41aa80ce8eb8e97']
+  path: doc/build-helpers/trivial-build-helpers.chapter.md
+    ignoring
+rev: 2724e182286d25d69c7709c2c41aa80ce8eb8e97
+  date: 2024-03-25T12:36:03+01:00
+  subject: Merge pull request #297142 from Mic92/envfs
+  parents: ['283fa362e649f17c256b24ac2d49e5e2092a46be', '3a8e8369a67cb68e0e267413c36d997e9e3f670c']
+  rev: 3a8e8369a67cb68e0e267413c36d997e9e3f670c
+    date: 2024-03-19T11:06:21+01:00
+    subject: envfs: 1.0.3 -> 1.0.6
+    parents: ['b36fb377314f39ad863408e5428a869666304b62']
+    path: nixos/modules/tasks/filesystems/envfs.nix
+      ignoring
+    path: pkgs/tools/filesystems/envfs/default.nix
+      pname: envfs
+      version: 1.0.3 -> 1.0.6
+rev: b36fb377314f39ad863408e5428a869666304b62
+  date: 2024-03-19T10:58:23+01:00
+  subject: Merge pull request #297066 from r-ryantm/auto-update/python311Packages.python-openstackclient
+  parents: ['63709965b75eea35af7d127d4b2dc87936d00019', 'be293f7449a16e68c25556ad9b09b321aeb98d44']
+  rev: be293f7449a16e68c25556ad9b09b321aeb98d44
+    date: 2024-03-19T00:24:59+00:00
+    subject: python311Packages.python-openstackclient: 6.5.0 -> 6.6.0
+    parents: ['e0d7b921c6f66dd77b8f7c479677ee661742fede']
+    path: pkgs/development/python-modules/python-openstackclient/default.nix
+      pname: python-openstackclient
+      version: 6.5.0 -> 6.6.0
+rev: e0d7b921c6f66dd77b8f7c479677ee661742fede
+  date: 2024-03-18T19:00:24-05:00
+  subject: Merge pull request #295893 from petertrotman/cmake-tools.nvim
+  parents: ['b9c5f2859f355b13a24943dde97ee6c49da6941e', 'eb37c9f9feec2df90023eb7ffe733b41dff63089']
+  rev: eb37c9f9feec2df90023eb7ffe733b41dff63089
+    date: 2024-03-14T14:04:04+00:00
+    subject: add hash
+    parents: ['22bc2ccd6754bbd0adb18d6422f34310ada2aa48']
+    path: pkgs/applications/editors/vim/plugins/generated.nix
+      TODO implement diff pkgs/applications/editors/vim/plugins/generated.nix
+  rev: 22bc2ccd6754bbd0adb18d6422f34310ada2aa48
+    date: 2024-03-14T13:40:44+00:00
+    subject: add entry to generated.nix
+    parents: ['565d9c5772944af3faabc60d242b471763307282']
+    path: pkgs/applications/editors/vim/plugins/generated.nix
+      TODO implement diff pkgs/applications/editors/vim/plugins/generated.nix
+  rev: 565d9c5772944af3faabc60d242b471763307282
+    date: 2024-03-14T12:51:41+00:00
+    subject: add repo to vim plugin names
+    parents: ['7b97c01386f469f0e0c983fe61ec26cc7bb916ce']
+    path: pkgs/applications/editors/vim/plugins/vim-plugin-names
+      no pname, no version
+rev: 7b97c01386f469f0e0c983fe61ec26cc7bb916ce
+  date: 2024-03-14T11:36:38+01:00
+  subject: Merge pull request #295838 from xanderio/outline-0.75.2
+  parents: ['fa2c6d0898830001033438c5bab8b80a154c6b62', '12b51fe617455ade41e8d57d95fbbfd2c37a2fb9']
+  rev: 12b51fe617455ade41e8d57d95fbbfd2c37a2fb9
+    date: 2024-03-13T21:13:32+01:00
+    subject: outline: 0.75.0 -> 0.75.2
+    parents: ['eb4f8bd5bb4fba814205693346bf5aaf9d17dfb0']
+    path: pkgs/servers/web-apps/outline/default.nix
+      pname: outline
+      version: 0.75.0 -> 0.75.2
+rev: eb4f8bd5bb4fba814205693346bf5aaf9d17dfb0
+  date: 2024-03-12T01:15:46+00:00
+  subject: kubernetes-helmPlugins.helm-secrets: 4.5.1 -> 4.6.0
+  parents: ['25fe468968488bd9f822b0df1a2ffa7ea4fd52c6']
+  path: pkgs/applications/networking/cluster/helm/plugins/helm-secrets.nix
+    pname: helm-secrets
+    version: 4.5.1 -> 4.6.0
+rev: 25fe468968488bd9f822b0df1a2ffa7ea4fd52c6
+  date: 2024-03-13T09:09:11+01:00
+  subject: Merge pull request #294741 from Aleksanaa/dissent
+  parents: ['c35c016e5d5a44fd7a8ad332f875580b22da5663', '6eee9d1c552ab1700e91b1e6c59775e75441b9a3']
+  rev: 6eee9d1c552ab1700e91b1e6c59775e75441b9a3
+    date: 2024-03-10T22:00:59+08:00
+    subject: dissent: 0.0.19 -> 0.0.21; renamed from gtkcord4
+    parents: ['4150fc1b4b5cf4f07e2a7ff0840436bb5db253a6']
+    path: pkgs/by-name/di/dissent/package.nix
+      TODO unexpected pname matches in pkgs/by-name/di/dissent/package.nix
+        +  pname = "dissent";
+    path: pkgs/top-level/aliases.nix
+      TODO implement diff pkgs/top-level/aliases.nix
+  rev: 4150fc1b4b5cf4f07e2a7ff0840436bb5db253a6
+    date: 2024-03-10T21:38:04+08:00
+    subject: gtkcord4: migrate to pkgs/by-name
+    parents: ['3ba9038ccb91c57a21861a42279660fd0b171913']
+    path: pkgs/applications/audio/gtkcord4/default.nix	pkgs/by-name/di/dissent/package.nix
+      TODO implement status R100 of path pkgs/applications/audio/gtkcord4/default.nix	pkgs/by-name/di/dissent/package.nix
+    path: pkgs/top-level/all-packages.nix
+      TODO implement diff pkgs/top-level/all-packages.nix
+rev: 3ba9038ccb91c57a21861a42279660fd0b171913
+  date: 2024-03-10T12:51:26+01:00
+  subject: Merge pull request #294571 from r-ryantm/auto-update/antidote
+  parents: ['ce94aa7e20f6089984db41808c0a53f7a992c5b1', '99e11b3d52f7f8e7c0e01afa039534dfa7458329']
+  rev: 99e11b3d52f7f8e7c0e01afa039534dfa7458329
+    date: 2024-03-09T21:08:07+00:00
+    subject: antidote: 1.9.5 -> 1.9.6
+    parents: ['32146f31615787cc28af373e5bceaa256077b26c']
+    path: pkgs/shells/zsh/antidote/default.nix
+      pname: antidote
+      version: 1.9.5 -> 1.9.6
+rev: 32146f31615787cc28af373e5bceaa256077b26c
+  date: 2024-03-09T19:00:23+01:00
+  subject: Merge pull request #294517 from chewblacka/fix-ytdownloader
+  parents: ['469d04ae7767bb19440a7f84b9958af87552a49c', 'f48a35b0702366ef9c0ac3a95906e68f3d1eb7ca']
+  rev: f48a35b0702366ef9c0ac3a95906e68f3d1eb7ca
+    date: 2024-03-09T15:06:15+00:00
+    subject: ytdownloader: add patch to set correct config dir
+    parents: ['9289a0678efadcd95fae82ea8c82318d3a86694a']
+    path: pkgs/by-name/yt/ytdownloader/config-dir.patch
+      no pname, no version
+    path: pkgs/by-name/yt/ytdownloader/package.nix
+      version: 3.17.3
+      TODO only version was found
+rev: 9289a0678efadcd95fae82ea8c82318d3a86694a
+  date: 2024-03-09T15:00:47+01:00
+  subject: Merge pull request #294473 from r-ryantm/auto-update/python311Packages.pyngrok
+  parents: ['c5940cf69347f3a1ca8d23e6255d2ef8f263a6f1', '1419667071ff25e4ef9bfb49663699874968678a']
+  rev: 1419667071ff25e4ef9bfb49663699874968678a
+    date: 2024-03-09T10:10:26+00:00
+    subject: python311Packages.pyngrok: 7.1.4 -> 7.1.5
+    parents: ['3030f185ba6a4bf4f18b87f345f104e6a6961f34']
+    path: pkgs/development/python-modules/pyngrok/default.nix
+      pname: pyngrok
+      version: 7.1.4 -> 7.1.5
+rev: 3030f185ba6a4bf4f18b87f345f104e6a6961f34
+  date: 2024-03-09T14:22:43+09:00
+  subject: Merge pull request #294405 from r-ryantm/auto-update/python311Packages.anywidget
+  parents: ['2d771433ca784c509416386a95e98a712ca61b58', '7a2394e7926a16d9d3c43936734553827273ef8b']
+  rev: 7a2394e7926a16d9d3c43936734553827273ef8b
+    date: 2024-03-09T02:06:45+00:00
+    subject: python311Packages.anywidget: 0.9.2 -> 0.9.3
+    parents: ['2be8f78d2324456ee6570a59fa1af45c58b0abe6']
+    path: pkgs/development/python-modules/anywidget/default.nix
+      pname: anywidget
+      version: 0.9.2 -> 0.9.3
+rev: 2be8f78d2324456ee6570a59fa1af45c58b0abe6
+  date: 2024-03-08T23:31:23+00:00
+  subject: Merge pull request #292927 from SuperSandro2000/vaultwarden
+  parents: ['69ac79b3ffd2d8c2e8ab053ab11a8311649f35e8', '21a8fda2fd9c4e760971cc82c74a46e9108eea86']
+  rev: 21a8fda2fd9c4e760971cc82c74a46e9108eea86
+    date: 2024-03-02T22:28:37+01:00
+    subject: vaultwarden: 1.30.3 -> 1.30.5
+    parents: ['1dfd9a62f32d09b918744985efb1b18e542f30d9']
+    path: pkgs/tools/security/vaultwarden/default.nix
+      pname: vaultwarden
+      version: 1.30.3 -> 1.30.5
+rev: 1dfd9a62f32d09b918744985efb1b18e542f30d9
+  date: 2024-03-01T20:48:50+11:00
+  subject: Merge pull request #292501 from msfjarvis/hs/android-studio
+  parents: ['72f01b23cf852b7c7a09e19cfc768e348a427a98', '47cc66f98dfa5ac047cc0d7c69b958c5b9a685fa']
+  rev: 47cc66f98dfa5ac047cc0d7c69b958c5b9a685fa
+    date: 2024-03-01T14:11:56+05:30
+    subject: androidStudioPackages.stable: 2023.1.1.28 -> 2023.2.1.23
+    parents: ['e687cfd88b0998196905a82bb1950c8d277ebe64']
+    path: pkgs/applications/editors/android-studio/default.nix
+      TODO unexpected pname matches in pkgs/applications/editors/android-studio/default.nix
+             pname = "android-studio";
+           pname = "android-studio-beta";
+           pname = "android-studio-dev";
+           pname = "android-studio-canary";
+  rev: e687cfd88b0998196905a82bb1950c8d277ebe64
+    date: 2024-03-01T14:11:54+05:30
+    subject: androidStudioPackages.canary: 2023.3.1.9 -> 2023.3.1.12
+    parents: ['f7fca9d98b0ec282f4b0d63f1fc2e38caf4ea55a']
+    path: pkgs/applications/editors/android-studio/default.nix
+      TODO unexpected pname matches in pkgs/applications/editors/android-studio/default.nix
+             pname = "android-studio";
+           pname = "android-studio-beta";
+           pname = "android-studio-dev";
+           pname = "android-studio-canary";
+rev: f7fca9d98b0ec282f4b0d63f1fc2e38caf4ea55a
+  date: 2024-03-01T08:20:35+01:00
+  subject: Merge pull request #292447 from fabaff/checkov-bump
+  parents: ['20defc562fc669494c249ae234d51396fe40490f', 'f5e531b65b7ebb767aba1513a9a6dcd391de99d7']
+  rev: f5e531b65b7ebb767aba1513a9a6dcd391de99d7
+    date: 2024-02-29T23:38:10+01:00
+    subject: checkov: 3.2.24 -> 3.2.28
+    parents: ['7ffd9deea5c50d973b3195450f154bc915bd704a']
+    path: pkgs/development/tools/analysis/checkov/default.nix
+      pname: checkov
+      version: 3.2.24 -> 3.2.28
+rev: 7ffd9deea5c50d973b3195450f154bc915bd704a
+  date: 2024-02-29T22:29:22+00:00
+  subject: Merge pull request #290656 from r-ryantm/auto-update/bosh-cli
+  parents: ['41356f19a60c671463302db82ca17d386ee5bacc', 'fe2d3875b3fda7568a34d67eb119493889b94940']
+  rev: fe2d3875b3fda7568a34d67eb119493889b94940
+    date: 2024-02-29T13:00:26+00:00
+    subject: bosh-cli: 7.5.2 -> 7.5.4
+    parents: ['575147aed746e3230b46795176e50645b8fe8387']
+    path: pkgs/applications/networking/cluster/bosh-cli/default.nix
+      pname: bosh-cli
+      version: 7.5.2 -> 7.5.4
+rev: 575147aed746e3230b46795176e50645b8fe8387
+  date: 2024-02-29T11:41:52+00:00
+  subject: Merge pull request #292313 from r-ryantm/auto-update/python311Packages.litellm
+  parents: ['cd7f814c6941fb77df3d36a6f320ff111464bb57', '38eb9caf24dc49fb1c5898632508b01b2868f3b1']
+  rev: 38eb9caf24dc49fb1c5898632508b01b2868f3b1
+    date: 2024-02-29T10:21:06+00:00
+    subject: python311Packages.litellm: 1.27.4 -> 1.28.0
+    parents: ['18b6efcdce77b13e59934c1bee407503e6378712']
+    path: pkgs/development/python-modules/litellm/default.nix
+      pname: litellm
+      version: 1.27.4 -> 1.28.0
+rev: 18b6efcdce77b13e59934c1bee407503e6378712
+  date: 2024-02-29T14:58:16+09:00
+  subject: Merge pull request #291780 from natsukium/rdkit/update
+  parents: ['9d829f3ddf9c56540b9a837289c8430a8d5731d0', '0fc8f2c34a7d60a9c1edb60cf5cd10491a5086cb']
+  rev: 0fc8f2c34a7d60a9c1edb60cf5cd10491a5086cb
+    date: 2024-02-27T19:34:48+09:00
+    subject: python311Packages.rdkit: 2023.09.4 -> 2023.09.5
+    parents: ['6c13afc0d4af620800c1709280b087c88bd675dd']
+    path: pkgs/development/python-modules/rdkit/default.nix
+      pname: rdkit
+      version: 2023.09.4 -> 2023.09.5
+rev: 6c13afc0d4af620800c1709280b087c88bd675dd
+  date: 2024-02-27T11:03:38+01:00
+  subject: Merge pull request #291764 from fabaff/flax-fix
+  parents: ['f42b5b324c389c83f9ee3bc5819d5ba7dfc830c0', '1616a48878a1a1a135d59892b3a60648d9c9442a']
+  rev: 1616a48878a1a1a135d59892b3a60648d9c9442a
+    date: 2024-02-27T09:56:55+01:00
+    subject: python311Packages.flax: refactor
+    parents: ['51ea18aaa6b1951be64fcfad57088e2b591ca749']
+    path: pkgs/development/python-modules/flax/default.nix
+      pname: flax
+      version: 0.7.5
+rev: 51ea18aaa6b1951be64fcfad57088e2b591ca749
+  date: 2024-02-27T17:47:39+09:00
+  subject: Merge pull request #290410 from r-ryantm/auto-update/mopidy-muse
+  parents: ['a23fdbb4f238d94508129f35affb61cf8038e0db', '0204be321362b11a43daf87ea78078115285c75f']
+  rev: 0204be321362b11a43daf87ea78078115285c75f
+    date: 2024-02-21T11:18:25+00:00
+    subject: mopidy-muse: 0.0.30 -> 0.0.33
+    parents: ['79597053bebcbccd1991157c3292c3705307220c']
+    path: pkgs/applications/audio/mopidy/muse.nix
+      pname: mopidy-muse
+      version: 0.0.30 -> 0.0.33
+rev: 79597053bebcbccd1991157c3292c3705307220c
+  date: 2024-02-21T00:51:29-05:00
+  subject: Merge pull request #290347 from r-ryantm/auto-update/heroku
+  parents: ['e14ed0f231c483dfa07624fb5d84e109dd076be8', '0f1382a6a013afc76ead9070590dc00b8d688334']
+  rev: 0f1382a6a013afc76ead9070590dc00b8d688334
+    date: 2024-02-21T03:34:03+00:00
+    subject: heroku: 8.9.0 -> 8.10.0
+    parents: ['fd643e9c97a8a8f1fd992dbce4e0168576d6b43b']
+    path: pkgs/development/tools/heroku/default.nix
+      pname: heroku
+      version: 8.9.0 -> 8.10.0
+rev: fd643e9c97a8a8f1fd992dbce4e0168576d6b43b
+  date: 2024-02-21T00:01:17+00:00
+  subject: Merge pull request #266042 from GaetanLepage/plotnine
+  parents: ['c47cee256aec1ca23d22731c4901409c6d37ba66', '62005d1d74c57e79ca48d5190d1a406be6cbaeea']
+  rev: 62005d1d74c57e79ca48d5190d1a406be6cbaeea
+    date: 2024-02-20T16:39:30+01:00
+    subject: python311Packages.plotnine: 0.12.4 -> 0.13.0
+    parents: ['821d134eefc449e8406ae1de214996bb7ad30733']
+    path: pkgs/development/python-modules/plotnine/default.nix
+      pname: plotnine
+      version: 0.12.4 -> 0.13.0
+  rev: 821d134eefc449e8406ae1de214996bb7ad30733
+    date: 2024-02-20T16:36:41+01:00
+    subject: python311Packages.mizani: 0.9.3 -> 0.11.0
+    parents: ['65480f71f82bf75a35b3932dd98f34b3901ff8bf']
+    path: pkgs/development/python-modules/mizani/default.nix
+      pname: mizani
+      version: 0.9.3 -> 0.11.0
+rev: 65480f71f82bf75a35b3932dd98f34b3901ff8bf
+  date: 2024-02-20T09:45:45-05:00
+  subject: Merge pull request #289887 from r-ryantm/auto-update/circt
+  parents: ['85b6c102462f9d7495c4d260fd4c05f27dec832e', '0428ec5cdeb6936af143d25489edc294c9901d76']
+  rev: 0428ec5cdeb6936af143d25489edc294c9901d76
+    date: 2024-02-19T02:27:37+00:00
+    subject: circt: 1.65.0 -> 1.66.0
+    parents: ['157c7313726ffe0469b4e9512e010bbc1038ecbe']
+    path: pkgs/development/compilers/circt/default.nix
+      pname: circt
+      version: 1.65.0 -> 1.66.0
+rev: 157c7313726ffe0469b4e9512e010bbc1038ecbe
+  date: 2024-02-18T20:50:20+01:00
+  subject: libgudev: don't add umockdev dep if doCheck=false
+  parents: ['ee1069d07d493473540dd467886c71c0adcbc60f']
+  path: pkgs/development/libraries/libgudev/default.nix
+    pname: libgudev
+    version: 238
+rev: ee1069d07d493473540dd467886c71c0adcbc60f
+  date: 2024-02-19T00:33:23+01:00
+  subject: Merge pull request #283794 from DataHearth/feat/update-vscode-ruff-2024.4.0
+  parents: ['3a44968a2dbc4b4ab5068f7e1f110200a5f83f38', '2c3ea631119f97577a4cd4e53fac744c9c2f2e9e']
+  rev: 2c3ea631119f97577a4cd4e53fac744c9c2f2e9e
+    date: 2024-01-25T16:44:02+01:00
+    subject: vscode-extensions.charliermarsh.ruff: 2023.60.0 -> 2024.4.0
+    parents: ['a009772b6fdba0771a1b283e5c42c1d788d2615f']
+    path: pkgs/applications/editors/vscode/extensions/default.nix
+      TODO implement diff pkgs/applications/editors/vscode/extensions/default.nix
+rev: a009772b6fdba0771a1b283e5c42c1d788d2615f
+  date: 2024-02-17T17:58:32+01:00
+  subject: Merge pull request #289527 from r-ryantm/auto-update/python311Packages.google-cloud-access-context-manager
+  parents: ['9372af5667cbcbb0214fbad95abc0632c5b159a4', '9ca1e833f6e1e7346d941eaa60404f23fccb0a22']
+  rev: 9ca1e833f6e1e7346d941eaa60404f23fccb0a22
+    date: 2024-02-17T16:39:17+01:00
+    subject: python311Packages.google-cloud-access-context-manager: refactor
+    parents: ['5294a3591cea946a335716bddd612db9ada10c8d']
+    path: pkgs/development/python-modules/google-cloud-access-context-manager/default.nix
+      pname: google-cloud-access-context-manager
+      version: 0.2.0
+  rev: 5294a3591cea946a335716bddd612db9ada10c8d
+    date: 2024-02-17T12:38:51+00:00
+    subject: python311Packages.google-cloud-access-context-manager: 0.1.16 -> 0.2.0
+    parents: ['e51ce7cd445719caa7671a41d33848d38de576fd']
+    path: pkgs/development/python-modules/google-cloud-access-context-manager/default.nix
+      pname: google-cloud-access-context-manager
+      version: 0.1.16 -> 0.2.0
+rev: e51ce7cd445719caa7671a41d33848d38de576fd
+  date: 2024-02-17T00:52:29-05:00
+  subject: Merge pull request #283578 from hraban/bat-extras-pname
+  parents: ['5586a7142e1bc7da9d2b9ffc9fad356c3d613c05', '6b6dd4509e78de088873eeb24dd34888d7eb77d9']
+  rev: 6b6dd4509e78de088873eeb24dd34888d7eb77d9
+    date: 2024-01-26T12:45:26-05:00
+    subject: bat-extras: also set meta.mainProgram
+    parents: ['d08f8d0c9800165ba8a766cf798b0aa9b4089041']
+    path: pkgs/tools/misc/bat-extras/default.nix
+      version: 2023.06.15
+      TODO only version was found
+  rev: d08f8d0c9800165ba8a766cf798b0aa9b4089041
+    date: 2023-11-21T10:52:06-05:00
+    subject: bat-extras: set pname to executable name
+    parents: ['51a01a7e5515b469886c120e38db325c96694c2f']
+    path: pkgs/tools/misc/bat-extras/default.nix
+      version: 2023.06.15
+      TODO only version was found
+rev: 51a01a7e5515b469886c120e38db325c96694c2f
+  date: 2023-11-20T17:09:00-03:00
+  subject: newsraft: init at 0.21
+  parents: ['2c06b55f36941f13383095a851f8645d054e5dda']
+  path: pkgs/by-name/ne/newsraft/package.nix
+rev: 2c06b55f36941f13383095a851f8645d054e5dda
+  date: 2023-11-20T18:40:16-03:00
+  subject: maintainers: add arthsmn
+  parents: ['3d480d4ae70b95abc065f8d64db2df51c079f356']
+  path: maintainers/maintainer-list.nix
+    ignoring
+rev: 3d480d4ae70b95abc065f8d64db2df51c079f356
+  date: 2023-11-21T03:51:43+01:00
+  subject: Merge pull request #268782 from mweinelt/firefox-120.0
+  parents: ['b3f0fc47e1a6e880e1df2f437d09ceb120b9c8fc', 'f6169c3bf310a3f4d7f6b4809bd0e5c08871be84']
+  rev: f6169c3bf310a3f4d7f6b4809bd0e5c08871be84
+    date: 2023-11-20T18:44:03+01:00
+    subject: firefox-esr-115-unwrapped: 115.4.0esr -> 115.5.0esr
+    parents: ['c57f739753920e33b3bdde6d20824d6c1e342821']
+    path: pkgs/applications/networking/browsers/firefox/packages.nix
+      TODO unexpected pname matches in pkgs/applications/networking/browsers/firefox/packages.nix
+             pname = "firefox";
+           pname = "firefox-beta";
+           pname = "firefox-devedition";
+  rev: c57f739753920e33b3bdde6d20824d6c1e342821
+    date: 2023-11-20T18:42:16+01:00
+    subject: firefox-bin-unwrapped: 119.0.1 -> 120.0
+    parents: ['307f1a287879a84880dbe3569db3400ba17b5e9b']
+    path: pkgs/applications/networking/browsers/firefox-bin/release_sources.nix
+      version: 119.0.1 -> 120.0
+      TODO only version was found
+  rev: 307f1a287879a84880dbe3569db3400ba17b5e9b
+    date: 2023-11-20T18:40:02+01:00
+    subject: firefox-unwrapped: 119.0.1 -> 120.0
+    parents: ['c4376a9f3a3937f91ff9361d4cfd0206da35ecb1']
+    path: pkgs/applications/networking/browsers/firefox/packages.nix
+      TODO unexpected pname matches in pkgs/applications/networking/browsers/firefox/packages.nix
+             pname = "firefox";
+           pname = "firefox-beta";
+           pname = "firefox-devedition";
+rev: c4376a9f3a3937f91ff9361d4cfd0206da35ecb1
+  date: 2023-11-20T12:28:04-05:00
+  subject: Merge pull request #267901 from figsoda/shuttle
+  parents: ['24c063485384107719362fea8f7a3af7b77e39dc', 'aa68c58a9138c90444de1de12648ec7dc6db99eb']
+  rev: aa68c58a9138c90444de1de12648ec7dc6db99eb
+    date: 2023-11-16T09:43:18-05:00
+    subject: cargo-shuttle: 0.30.1 -> 0.33.0
+    parents: ['e4df5bf73601b3fc27bc829443ece91d5b15a506']
+    path: pkgs/development/tools/rust/cargo-shuttle/Cargo.lock
+      no pname, no version
+    path: pkgs/development/tools/rust/cargo-shuttle/default.nix
+      pname: cargo-shuttle
+      version: 0.30.1 -> 0.33.0
+rev: e4df5bf73601b3fc27bc829443ece91d5b15a506
+  date: 2023-11-16T09:33:45-05:00
+  subject: Merge pull request #267799 from figsoda/codspeed
+  parents: ['13ae0340a4658ff78454c24c8c00d63266b9e3c7', '5f79ade7f880061a08ae1e5ac75d84a852b9f1ca']
+  rev: 5f79ade7f880061a08ae1e5ac75d84a852b9f1ca
+    date: 2023-11-15T22:51:19-05:00
+    subject: cargo-codspeed: 2.3.1 -> 2.3.2
+    parents: ['eb491233cd74eb8a3642ca459ab672390ed02222']
+    path: pkgs/development/tools/rust/cargo-codspeed/default.nix
+      pname: cargo-codspeed
+      version: 2.3.1 -> 2.3.2
+rev: eb491233cd74eb8a3642ca459ab672390ed02222
+  date: 2023-11-15T18:20:10-08:00
+  subject: Merge pull request #265417 from GaetanLepage/jax
+  parents: ['6a19af3e00770531136d8f27e3a452a549224bf4', '97f6797b8316d8a16b09b77f341b233c22c205b1']
+  rev: 97f6797b8316d8a16b09b77f341b233c22c205b1
+    date: 2023-11-04T10:16:39+01:00
+    subject: python311Packages.jax: 0.4.19 -> 0.4.20
+    parents: ['33de75c3670db00b1314e3e069f8fbdb3019eef9']
+    path: pkgs/development/python-modules/jax/default.nix
+      pname: jax
+      version: 0.4.19 -> 0.4.20
+  rev: 33de75c3670db00b1314e3e069f8fbdb3019eef9
+    date: 2023-11-03T13:45:53+01:00
+    subject: python311Packages.jaxlib: 0.4.19 -> 0.4.20
+    parents: ['153ad31861d57bbfb5f2fce016376f533aee090a']
+    path: pkgs/development/python-modules/jaxlib/default.nix
+      pname: jaxlib
+      version: 0.4.19 -> 0.4.20
+  rev: 153ad31861d57bbfb5f2fce016376f533aee090a
+    date: 2023-11-03T13:43:16+01:00
+    subject: python311Packages.jaxlib-bin: 0.4.19 -> 0.4.20
+    parents: ['4af30c40e2d64df5d2c1f6aff63133d69280cb98']
+    path: pkgs/development/python-modules/jaxlib/bin.nix
+      TODO unexpected pname matches in pkgs/development/python-modules/jaxlib/bin.nix
+                 pname = "jaxlib";
+         pname = "jaxlib";
+rev: 4af30c40e2d64df5d2c1f6aff63133d69280cb98
+  date: 2023-11-15T07:44:46+01:00
+  subject: Merge pull request #264606 from CobaltCause/cargo-llvm-cov
+  parents: ['e8ad54f562b4621c7c080b4a3ddbafe4735bcb86', 'b57a3544ff64b4a9f217c67fdb0259730602f75c']
+  rev: b57a3544ff64b4a9f217c67fdb0259730602f75c
+    date: 2023-10-31T08:29:46-07:00
+    subject: cargo-llvm-cov: 0.5.35 -> 0.5.36
+    parents: ['3dfc0c74865bf0f20db121fc190dc1253e9a8eab']
+    path: pkgs/development/tools/rust/cargo-llvm-cov/default.nix
+      pname: cargo-llvm-cov
+      version: 0.5.35 -> 0.5.36
+  rev: 3dfc0c74865bf0f20db121fc190dc1253e9a8eab
+    date: 2023-10-31T08:26:42-07:00
+    subject: cargo-llvm-cov: 0.5.34 -> 0.5.35
+    parents: ['a946f9e71def31553664173ed5868a9401e62cb6']
+    path: pkgs/development/tools/rust/cargo-llvm-cov/default.nix
+      pname: cargo-llvm-cov
+      version: 0.5.34 -> 0.5.35
+  rev: a946f9e71def31553664173ed5868a9401e62cb6
+    date: 2023-10-31T08:22:39-07:00
+    subject: cargo-llvm-cov: 0.5.33 -> 0.5.34
+    parents: ['b67d49726047b20713c3a48710d7459031ff361f']
+    path: pkgs/development/tools/rust/cargo-llvm-cov/default.nix
+      pname: cargo-llvm-cov
+      version: 0.5.33 -> 0.5.34
+rev: b67d49726047b20713c3a48710d7459031ff361f
+  date: 2023-10-31T11:09:07-04:00
+  subject: Merge pull request #262847 from emilytrau/minimal-nix-cores
+  parents: ['4a644c17c07afeaca26bc2c6c67534fa2c176209', '4f62cc0388847299d25e8b21bd5021ee6f745fd6']
+  rev: 4f62cc0388847299d25e8b21bd5021ee6f745fd6
+    date: 2023-10-23T01:08:17+00:00
+    subject: minimal-bootstrap.*: improve parallelisation using newer bash version
+    parents: ['14f2ba715dc95b85716dabbf192327d7a031522f']
+    path: pkgs/os-specific/linux/minimal-bootstrap/default.nix
+      no pname, no version
+  rev: 14f2ba715dc95b85716dabbf192327d7a031522f
+    date: 2023-10-23T01:07:25+00:00
+    subject: minimal-bootstrap.bash{,_2_05}: Normalize the NIX_BUILD_CORES variable
+    parents: ['e42f00c96cb7048375ceb6d5def91a531c8c6c53']
+    path: pkgs/os-specific/linux/minimal-bootstrap/bash/2.nix
+      pname: bash
+      version: 2.05b
+    path: pkgs/os-specific/linux/minimal-bootstrap/bash/default.nix
+      pname: bash
+      version: 5.2.15
+rev: e42f00c96cb7048375ceb6d5def91a531c8c6c53
+  date: 2023-10-22T19:46:10-05:00
+  subject: Merge pull request #260862 from noisersup/ferretdb-1.12.1
+  parents: ['b6dfb5223ddfc1ad11867a1788f183fd7a279d26', 'a5a68ca31991c45a023a2beb12ca551c78172c8e']
+  rev: a5a68ca31991c45a023a2beb12ca551c78172c8e
+    date: 2023-10-13T12:42:47+02:00
+    subject: ferretdb: 1.11.0 -> 1.12.1
+    parents: ['a97d85ff06c5d91b594cace882fdf1b241086345']
+    path: pkgs/servers/nosql/ferretdb/default.nix
+      pname: ferretdb
+      version: 1.11.0 -> 1.12.1
+rev: a97d85ff06c5d91b594cace882fdf1b241086345
+  date: 2023-10-13T11:38:26+02:00
+  subject: Merge pull request #257866 from pbsds/bump-1695921607-libnacl
+  parents: ['4d75ea462e1f420c68ff43173e2524ce5ab25c86', '865ac01779549f329322d2af467ab9c0f01eb573']
+  rev: 865ac01779549f329322d2af467ab9c0f01eb573
+    date: 2023-09-28T19:20:20+02:00
+    subject: python3Packages.libnacl: 1.7.2 -> 2.1.0
+    parents: ['ef1b2ae152978df4a61068482e2ec238ff5481c0']
+    path: pkgs/development/python-modules/libnacl/default.nix
+      pname: libnacl
+      version: 1.7.2 -> 2.1.0
+rev: ef1b2ae152978df4a61068482e2ec238ff5481c0
+  date: 2023-09-25T19:00:06+02:00
+  subject: appimage-run: add pciutils for FreeCAD
+  parents: ['d37aa6f414c01bfebb7c3ed6719e4051898ab817']
+  path: pkgs/build-support/appimage/default.nix
+    no pname, no version
+rev: d37aa6f414c01bfebb7c3ed6719e4051898ab817
+  date: 2023-09-28T17:35:38+01:00
